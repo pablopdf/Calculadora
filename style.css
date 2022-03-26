@@ -1,10 +1,16 @@
+:root {
+  --bg: #cfec28;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #024375;
   font-family: sans-serif;
   outline: none;
+}
+
+body {
+  background-color: var(--bg);
 }
 
 .container {
@@ -56,4 +62,8 @@ button {
   border-radius: 40px;
   background-color: #ecf0f3;
   box-shadow: -5px -5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.1.6);
+}
+
+#simbolo {
+  font-size: 25px;
 }
